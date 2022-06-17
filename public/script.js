@@ -2,7 +2,7 @@ var sessionId = false;
 var orgId = -1;
 var userData = null;
 
-let options_dev = {
+var options_dev = {
   "org.id": "00D7Y000000BErs",
   "chat.src":
     "https://fulmineinmano--dev.my.salesforce.com/embeddedservice/5.0/esw.min.js",
@@ -21,7 +21,7 @@ let options_dev = {
   "chat.base.liveagent.url":
     "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
-let options_devshared = {
+var options_devshared = {
   "org.id": "00D1X0000000Npj",
   "chat.src":
     "https://fulmineinmano--devshared.my.salesforce.com/embeddedservice/5.0/esw.min.js",
@@ -40,7 +40,7 @@ let options_devshared = {
   "chat.base.liveagent.url":
     "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
-let options_uat = {
+var options_uat = {
   "org.id": "00D7Y000000BENn",
   "chat.src":
     "https://fulmineinmano--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js",
@@ -59,7 +59,7 @@ let options_uat = {
   "chat.base.liveagent.url":
     "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
-let options_prod = {
+var options_prod = {
   "org.id": "",
   "chat.src": "",
   "chat.base.url": "",
@@ -79,7 +79,7 @@ let options_prod = {
 var options = {};
 
 function init() {
-  console.log("VERSION: 1");
+  console.log("VERSION:\t1");
   var url_string = window.location.href;
   var url = new URL(url_string);
   var sessionId = url.searchParams.get("sessionId");
@@ -102,19 +102,19 @@ function init() {
   document.getElementById("orgId").value = orgId;
   switch (orgId) {
     case 1:
-      console.log("DEV");
+      console.log("ENV:\t\tDEV");
       options = options_dev;
       break;
     case 2:
-      console.log("DEVSHARED");
+      console.log("END:\t\tDEVSHARED");
       options = options_devshared;
       break;
     case 3:
-      console.log("UAT");
+      console.log("END:\t\tUAT");
       options = options_uat;
       break;
     case 4:
-      console.log("PROD");
+      console.log("END:\t\tPROD");
       options = options_prod;
       break;
   }
@@ -132,16 +132,16 @@ function init() {
 
 function getUrl(name, value) {
   _url = location.href.toString();
-  var re = new RegExp("([?&])" + name + "=.*?(&|#|$)", "i");
+  let re = new RegExp("([?&])" + name + "=.*?(&|#|$)", "i");
   if (_url.match(re)) {
     return _url.replace(re, "$1" + name + "=" + value + "$2");
   } else {
-    var hash = "";
+    let hash = "";
     if (_url.indexOf("#") !== -1) {
       hash = _url.replace(/.*#/, "#");
       _url = _url.replace(/#.*/, "");
     }
-    var separator = _url.indexOf("?") !== -1 ? "&" : "?";
+    let separator = _url.indexOf("?") !== -1 ? "&" : "?";
     return _url + separator + name + "=" + value + hash;
   }
 }
@@ -166,7 +166,7 @@ function initESW(gslbBaseURL) {
 
   if (!userData) {
     // Guest User
-    console.log("Guest User");
+    console.log("USER:\t\tGuest");
     embedded_svc.settings.extraPrechatFormDetails = [
       {
         label: "Subj",
@@ -245,7 +245,7 @@ function initESW(gslbBaseURL) {
     );
   } else {
     // User Logged In
-    console.log("User Logged In");
+    console.log("USER:\t\tLogged In");
     // Prepopulate details
     embedded_svc.settings.prepopulatedPrechatFields = {
       FirstName: userData.firstName,
