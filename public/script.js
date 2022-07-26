@@ -4,87 +4,69 @@ var userData = null;
 
 var options_dev = {
   "org.id": "00D7Y000000BErs",
-  "chat.src":
-    "https://fulmineinmano--dev.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+  "chat.src": "https://fulmineinmano--dev.my.salesforce.com/embeddedservice/5.0/esw.min.js",
   "chat.base.url": "https://fulmineinmano--dev.my.salesforce.com",
-  "chat.agent.url":
-    "https://dev-fulmineinmano--dev.cs173.force.com/liveAgentSetupFlow",
+  "chat.agent.url": "https://dev-fulmineinmano--dev.cs173.force.com/liveAgentSetupFlow",
   "chat.logged.username": "Website_FIM_LoggedIn_User",
-  "chat.logged.agentname":
-    "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
+  "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
   "chat.guest.username": "Website_Prospect_FIM",
   "chat.guest.agentname": "Website_Prospect_FIM",
-  "chat.base.liveagent.content.url":
-    "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
+  "chat.base.liveagent.content.url": "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "5727Y000000GmeL",
   "chat.button.id": "5737Y000000Kyqz",
-  "chat.base.liveagent.url":
-    "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
+  "chat.base.liveagent.url": "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
 var options_devshared = {
   "org.id": "00D1X0000000Npj",
-  "chat.src":
-    "https://fulmineinmano--devshared.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+  "chat.src": "https://fulmineinmano--devshared.my.salesforce.com/embeddedservice/5.0/esw.min.js",
   "chat.base.url": "https://fulmineinmano--devshared.my.salesforce.com",
-  "chat.agent.url":
-    "https://devshared-sf-liveagent.cs101.force.com/liveAgentSetupFlow",
+  "chat.agent.url": "https://devshared-sf-liveagent.cs101.force.com/liveAgentSetupFlow",
   "chat.logged.username": "Website_FIM_LoggedIn_User",
-  "chat.logged.agentname":
-    "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
+  "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
   "chat.guest.username": "Website_Prospect_FIM",
   "chat.guest.agentname": "Website_Prospect_FIM",
-  "chat.base.liveagent.content.url":
-    "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
+  "chat.base.liveagent.content.url": "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "5721X0000004ECE",
   "chat.button.id": "5731X0000004DHg",
-  "chat.base.liveagent.url":
-    "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
+  "chat.base.liveagent.url": "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
 var options_uat = {
   "org.id": "00D7Y000000BENn",
-  "chat.src":
-    "https://fulmineinmano--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+  "chat.src": "https://fulmineinmano--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js",
   "chat.base.url": "https://fulmineinmano--uat.my.salesforce.com",
-  "chat.agent.url":
-    "https://uat-sf-liveagent.cs173.force.com/liveAgentSetupFlow",
+  "chat.agent.url": "https://uat-sf-liveagent.cs173.force.com/liveAgentSetupFlow",
   "chat.logged.username": "Website_FIM_LoggedIn_User",
-  "chat.logged.agentname":
-    "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
+  "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
   "chat.guest.username": "Website_Prospect_FIM",
   "chat.guest.agentname": "Website_Prospect_FIM",
-  "chat.base.liveagent.content.url":
-    "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
+  "chat.base.liveagent.content.url": "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "5727Y000000Kyl7",
   "chat.button.id": "5737Y000000Kyr4",
-  "chat.base.liveagent.url":
-    "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
+  "chat.base.liveagent.url": "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
 var options_prod = {
-  "org.id": "",
-  "chat.src": "",
-  "chat.base.url": "",
-  "chat.agent.url": "",
-  "chat.logged.username": "",
-  "chat.logged.agentname": "",
-  "chat.guest.username": "",
-  "chat.guest.agentname": "",
-  "chat.base.liveagent.content.url":
-    "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
-  "chat.deployment.id": "",
-  "chat.button.id": "",
-  "chat.base.liveagent.url":
-    "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
+  "org.id": "00D0900000AHGjn",
+  "chat.src": "https://fulmineinmano.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+  "chat.base.url": "https://fulmineinmano.my.salesforce.com",
+  "chat.agent.url": "https://virgin.secure.force.com/liveAgentSetupFlow",
+  "chat.logged.username": "Website_FIM_LoggedIn_User",
+  "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I09000000gfRdEAI_18239d0c96a",
+  "chat.guest.username": "Website_Prospect_FIM",
+  "chat.guest.agentname": "EmbeddedServiceLiveAgent_Parent04I09000000gfReEAI_18239d01668",
+  "chat.base.liveagent.content.url": "https://c.la3-c2-fra.salesforceliveagent.com/content",
+  "chat.deployment.id": "57209000000gpB8",
+  "chat.button.id": "57309000000gqKb",
+  "chat.base.liveagent.url": "https://d.la3-c2-fra.salesforceliveagent.com/chat",
 };
 
 var options = {};
 
 function init() {
-  console.log("VERSION:\t1");
+  console.log("VERSION:\t2");
   var url_string = window.location.href;
   var url = new URL(url_string);
   var sessionId = url.searchParams.get("sessionId");
-  console.log(sessionId);
-  if (sessionId === "true") {
+  if (sessionId) {
     //let userData = $.fim.private.accountDetails;
     userData = {
       firstName: "John",
@@ -106,15 +88,15 @@ function init() {
       options = options_dev;
       break;
     case 2:
-      console.log("END:\t\tDEVSHARED");
+      console.log("ENV:\t\tDEVSHARED");
       options = options_devshared;
       break;
     case 3:
-      console.log("END:\t\tUAT");
+      console.log("ENV:\t\tUAT");
       options = options_uat;
       break;
     case 4:
-      console.log("END:\t\tPROD");
+      console.log("ENV:\t\tPROD");
       options = options_prod;
       break;
   }
