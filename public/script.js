@@ -219,7 +219,6 @@ function initESW(gslbBaseURL) {
       {
         baseLiveAgentContentURL: options["chat.base.liveagent.content.url"],
         deploymentId: options["chat.deployment.id"],
-        buttonId: options["chat.button.id"],
         baseLiveAgentURL: options["chat.base.liveagent.url"],
         eswLiveAgentDevName: options["chat.guest.agentname"],
         isOfflineSupportEnabled: true,
