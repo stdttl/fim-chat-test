@@ -13,7 +13,8 @@ var options_dev = {
   "chat.guest.agentname": "Website_Prospect_FIM",
   "chat.base.liveagent.content.url": "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "5727Y000000GmeL",
-  "chat.button.id": "5737Y000000Kyqz",
+  "chat.button.id.guest": "5737Y000000Kyqz",
+  "chat.button.id.logged": "5737Y000000Kyqz",
   "chat.base.liveagent.url": "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
 var options_devshared = {
@@ -27,7 +28,8 @@ var options_devshared = {
   "chat.guest.agentname": "Website_Prospect_FIM",
   "chat.base.liveagent.content.url": "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "5721X0000004ECE",
-  "chat.button.id": "5731X0000004DHg",
+  "chat.button.id.guest": "5731X0000004DHg",
+  "chat.button.id.logged": "5731X0000004DHg",
   "chat.base.liveagent.url": "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
 var options_uat = {
@@ -41,7 +43,8 @@ var options_uat = {
   "chat.guest.agentname": "Website_Prospect_FIM",
   "chat.base.liveagent.content.url": "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "5727Y000000Kyl7",
-  "chat.button.id": "5737Y000000Kyr4",
+  "chat.button.id.guest": "5737Y000000Kyqa",
+  "chat.button.id.logged": "5737Y000000Kyr4",
   "chat.base.liveagent.url": "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
 var options_prod = {
@@ -55,7 +58,8 @@ var options_prod = {
   "chat.guest.agentname": "EmbeddedServiceLiveAgent_Parent04I09000000gfReEAI_18239d01668",
   "chat.base.liveagent.content.url": "https://c.la3-c2-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "57209000000gpB8",
-  "chat.button.id": "57309000000gqKb",
+  "chat.button.id.guest": "57309000000gqKb",
+  "chat.button.id.logged": "57309000000gqKb",
   "chat.base.liveagent.url": "https://d.la3-c2-fra.salesforceliveagent.com/chat",
 };
 
@@ -219,6 +223,7 @@ function initESW(gslbBaseURL) {
       {
         baseLiveAgentContentURL: options["chat.base.liveagent.content.url"],
         deploymentId: options["chat.deployment.id"],
+        buttonId: options["chat.button.id.guest"],
         baseLiveAgentURL: options["chat.base.liveagent.url"],
         eswLiveAgentDevName: options["chat.guest.agentname"],
         isOfflineSupportEnabled: true,
@@ -339,7 +344,7 @@ function initESW(gslbBaseURL) {
       {
         baseLiveAgentContentURL: options["chat.base.liveagent.content.url"],
         deploymentId: options["chat.deployment.id"],
-        buttonId: options["chat.button.id"],
+        buttonId: options["chat.button.id.logged"],
         baseLiveAgentURL: options["chat.base.liveagent.url"],
         eswLiveAgentDevName: options["chat.logged.agentname"],
         isOfflineSupportEnabled: true,
