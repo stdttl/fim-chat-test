@@ -28,7 +28,7 @@ var options_devshared = {
   "chat.guest.agentname": "Website_Prospect_FIM",
   "chat.base.liveagent.content.url": "https://c.la1-c1cs-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "5721X0000004ECE",
-  "chat.button.id.guest": "5731X0000004DHg",
+  "chat.button.id.guest": "5731X0000004DHH",
   "chat.button.id.logged": "5731X0000004DHg",
   "chat.base.liveagent.url": "https://d.la1-c1cs-fra.salesforceliveagent.com/chat",
 };
@@ -58,7 +58,7 @@ var options_prod = {
   "chat.guest.agentname": "EmbeddedServiceLiveAgent_Parent04I09000000gfReEAI_18239d01668",
   "chat.base.liveagent.content.url": "https://c.la3-c2-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "57209000000gpB8",
-  "chat.button.id.guest": "57309000000gqKb",
+  "chat.button.id.guest": "57309000000UT7z",
   "chat.button.id.logged": "57309000000gqKb",
   "chat.base.liveagent.url": "https://d.la3-c2-fra.salesforceliveagent.com/chat",
 };
