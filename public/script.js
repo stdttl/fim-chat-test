@@ -4,8 +4,8 @@ var userData = null;
 
 var options_dev = {
   "org.id": "00D7Y000000BErs",
-  "chat.src": "https://fulmineinmano--dev.my.salesforce.com/embeddedservice/5.0/esw.min.js",
-  "chat.base.url": "https://fulmineinmano--dev.my.salesforce.com",
+  "chat.src": "https://fulmineinmano--dev.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+  "chat.base.url": "https://fulmineinmano--dev.sandbox.my.salesforce.com",
   "chat.agent.url": "https://dev-fulmineinmano--dev.cs173.force.com/liveAgentSetupFlow",
   "chat.logged.username": "Website_FIM_LoggedIn_User",
   "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
@@ -19,8 +19,8 @@ var options_dev = {
 };
 var options_devshared = {
   "org.id": "00D1X0000000Npj",
-  "chat.src": "https://fulmineinmano--devshared.my.salesforce.com/embeddedservice/5.0/esw.min.js",
-  "chat.base.url": "https://fulmineinmano--devshared.my.salesforce.com",
+  "chat.src": "https://fulmineinmano--devshared.sandbox.my.salesforce.comorce.com/embeddedservice/5.0/esw.min.js",
+  "chat.base.url": "https://fulmineinmano--devshared.sandbox.my.salesforce.comorce.com",
   "chat.agent.url": "https://devshared-sf-liveagent.cs101.force.com/liveAgentSetupFlow",
   "chat.logged.username": "Website_FIM_LoggedIn_User",
   "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
@@ -34,8 +34,8 @@ var options_devshared = {
 };
 var options_uat = {
   "org.id": "00D7Y000000BENn",
-  "chat.src": "https://fulmineinmano--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js",
-  "chat.base.url": "https://fulmineinmano--uat.my.salesforce.com",
+  "chat.src": "https://fulmineinmano--uat.sandbox.my.salesforce.comorce.com/embeddedservice/5.0/esw.min.js",
+  "chat.base.url": "https://fulmineinmano--uat.sandbox.my.salesforce.comorce.com",
   "chat.agent.url": "https://uat-sf-liveagent.cs173.force.com/liveAgentSetupFlow",
   "chat.logged.username": "Website_FIM_LoggedIn_User",
   "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I1X0000008PPgUAM_17d757bf263",
