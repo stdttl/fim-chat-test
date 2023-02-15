@@ -55,7 +55,7 @@ var options_prod = {
   "chat.logged.username": "Website_FIM_LoggedIn_User",
   "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I09000000gfRdEAI_18239d0c96a",
   "chat.guest.username": "Website_Prospect_FIM",
-  "chat.guest.agentname": "EmbeddedServiceLiveAgent_Parent04I09000000gfReEAI_18239d01668",
+  "chat.guest.agentname": "Website_Prospect_FIM",
   "chat.base.liveagent.content.url": "https://c.la3-c2-fra.salesforceliveagent.com/content",
   "chat.deployment.id": "57209000000gpB8",
   "chat.button.id.guest": "57309000000UT7z",
