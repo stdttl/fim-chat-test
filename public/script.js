@@ -51,7 +51,7 @@ var options_prod = {
   "org.id": "00D0900000AHGjn",
   "chat.src": "https://fulmineinmano.my.salesforce.com/embeddedservice/5.0/esw.min.js",
   "chat.base.url": "https://fulmineinmano.my.salesforce.com",
-  "chat.agent.url": "https://virgin.secure.force.com/liveAgentSetupFlow",
+  "chat.agent.url": "https://fulmineinmano.my.salesforce-sites.com/liveAgentSetupFlow",
   "chat.logged.username": "Website_FIM_LoggedIn_User",
   "chat.logged.agentname": "EmbeddedServiceLiveAgent_Parent04I09000000gfRdEAI_18239d0c96a",
   "chat.guest.username": "Website_Prospect_FIM",
